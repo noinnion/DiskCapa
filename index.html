@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#f5f6f8">
+  <meta name="description" content="DiskCapa is a native macOS disk cleaner for developer machines. Find caches, build output, duplicates, and large files, then review what to remove.">
+  <meta property="og:title" content="DiskCapa — Make room for your next build">
+  <meta property="og:description" content="See where your disk space goes. Understand what you can reclaim. Stay in control of what gets removed.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://noinnion.com/DiskCapa/">
+  <meta property="og:image" content="https://noinnion.com/DiskCapa/assets/app-icon.png">
+  <link rel="canonical" href="https://noinnion.com/DiskCapa/">
+  <link rel="icon" type="image/png" href="assets/app-icon.png">
+  <link rel="stylesheet" href="style.css">
+  <title>DiskCapa — Make room for your next build</title>
+</head>
+<body>
+  <a class="skip" href="#main">Skip to content</a>
+  <header class="wrap header">
+    <a class="brand" href="./" aria-label="DiskCapa home"><img src="assets/app-icon.png" alt="" width="34" height="34"><span>DiskCapa</span></a>
+    <nav aria-label="Main navigation"><a href="#how-it-works">How it works</a><a href="https://github.com/noinnion/DiskCapa/releases">Releases <span aria-hidden="true">↗</span></a></nav>
+  </header>
+  <main id="main">
+    <section class="wrap hero" aria-labelledby="hero-title">
+      <div class="hero-copy">
+        <p class="eyebrow"><span class="dot"></span> BUILT FOR MAC. MADE FOR DEVELOPERS.</p>
+        <h1 id="hero-title">Make room for<br>your next <em>build.</em></h1>
+        <p class="intro">Your tools leave things behind.<br>DiskCapa helps you see what’s taking space, understand what it is, and choose what goes.</p>
+        <a class="button" href="#download">Release status <span aria-hidden="true">↓</span></a>
+        <p class="compatibility">Native macOS app · macOS 14 or later</p>
+      </div>
+      <div class="disk-illustration" role="img" aria-label="Illustration of disk space divided into caches, build output, dependencies, and other files.">
+        <div class="diagram-top"><span>SPACE, EXPLAINED</span><span aria-hidden="true">↗</span></div>
+        <div class="disk"><div class="disk-inner"><div class="disk-center"><img src="assets/app-icon.png" alt="" width="72" height="72"></div></div></div>
+        <div class="legend" aria-hidden="true"><span><i class="blue"></i>Caches</span><span><i class="lilac"></i>Build output</span><span><i class="sky"></i>Dependencies</span><span><i class="gray"></i>Other files</span></div>
+        <p class="illustration-note">Illustration · every Mac has its own story</p>
+      </div>
+    </section>
+    <div class="tool-strip"><div class="wrap"><span>For the space your tools leave behind</span><p>Xcode <b>·</b> Android <b>·</b> Gradle <b>·</b> Package managers <b>·</b> Build folders</p></div></div>
+    <section class="wrap workflow section" id="how-it-works" aria-labelledby="workflow-title">
+      <div class="section-heading"><p class="eyebrow">FROM “DISK FULL” TO A CLEARER PICTURE</p><h2 id="workflow-title">Three ways to find your space.</h2></div>
+      <div class="steps">
+        <article><span class="step-number">01 / SCAN</span><h3>Start with the usual suspects.</h3><p>Check known cache locations and developer tool leftovers. Choose a project folder to find its build output and dependency directories.</p></article>
+        <article><span class="step-number">02 / DEEP SCAN</span><h3>Find what you forgot about.</h3><p>Look further for duplicates, large files, and build artifacts across your chosen location. Review the findings before removing anything.</p></article>
+        <article><span class="step-number">03 / EXPLORE</span><h3>See the bigger picture.</h3><p>Follow an interactive sunburst chart into your folders. Understand where the space goes before deciding what to clean up.</p></article>
+      </div>
+    </section>
+    <section class="wrap control section" aria-labelledby="control-title">
+      <div><p class="eyebrow">YOUR FILES. YOUR CALL.</p><h2 id="control-title">Understand first.<br>Clean up second.</h2><p class="control-intro">Cleanup should be a decision you can explain. DiskCapa gives each finding a reason and a risk tier so you can review it with context.</p></div>
+      <ul class="principles">
+        <li><span aria-hidden="true">↶</span><div><h3>Trash by default</h3><p>Move items to the Trash, with a record of every removal. Dry run lets you preview a cleanup without deleting files.</p></div></li>
+        <li><span aria-hidden="true">✓</span><div><h3>Review stays in your hands</h3><p>Items marked Review or Caution are never preselected. Scheduled scans report findings; they don’t delete files.</p></div></li>
+        <li><span aria-hidden="true">⌁</span><div><h3>Optional AI second opinion</h3><p>Ask about an individual finding using a provider you configure. AI review is off by default and cannot authorize deletion. Requests send item metadata, not file contents.</p></div></li>
+      </ul>
+    </section>
+    <section class="wrap release section" id="download" aria-labelledby="release-title">
+      <div><p class="eyebrow"><span class="dot"></span> IN DEVELOPMENT</p><h2 id="release-title">A little more room.<br>Coming soon.</h2><p>The first public release is being prepared.<br>Downloads and release notes will appear on GitHub.</p><a class="button" href="https://github.com/noinnion/DiskCapa/releases">View releases <span aria-hidden="true">↗</span></a></div>
+      <aside class="requirements"><h3>Before you get started</h3><dl><div><dt>System</dt><dd>macOS 14 or later</dd></div><div><dt>Access</dt><dd>Full Disk Access lets DiskCapa inspect protected locations. Without it, scans cover less of your disk.</dd></div><div><dt>Availability</dt><dd>No public download yet.</dd></div></dl></aside>
+    </section>
+  </main>
+  <footer class="wrap footer"><a class="brand" href="./"><img src="assets/app-icon.png" alt="" width="26" height="26"><span>DiskCapa</span></a><p>© 2026 noinnion. All rights reserved.</p><div><a href="https://github.com/noinnion/DiskCapa">GitHub</a><a href="appcast.xml">Update feed</a></div></footer>
+</body>
+</html>
