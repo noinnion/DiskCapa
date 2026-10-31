@@ -6,6 +6,15 @@
         <description>Signed updates for DiskCapa on macOS.</description>
         <language>en</language>
         <item>
+            <title>1.0.1</title>
+            <pubDate>Sat, 31 Oct 2026 22:58:02 +0100</pubDate>
+            <link>https://noinnion.com/DiskCapa/</link>
+            <sparkle:version>2</sparkle:version>
+            <sparkle:shortVersionString>1.0.1</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <enclosure url="https://github.com/noinnion/DiskCapa/releases/download/v1.0.1/DiskCapa.dmg" length="4398966" type="application/octet-stream" sparkle:edSignature="ZLDGBGugpQO1zS+pJH4gxqgUhqdWhelTlTjzFDUdIovoB7w97VzBqlzJjmjnaPgdoQ0iiklXzgQWnckRmUGcBA=="/>
+        </item>
+        <item>
             <title>1.0.0</title>
             <pubDate>Fri, 23 Oct 2026 00:30:03 +0200</pubDate>
             <link>https://noinnion.com/DiskCapa/</link>
