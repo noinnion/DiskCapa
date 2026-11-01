@@ -6,8 +6,8 @@ The public home of DiskCapa, a native macOS app for finding reclaimable disk spa
 - [Downloads and release notes](https://github.com/noinnion/DiskCapa/releases)
 - [Sparkle update feed](https://noinnion.com/DiskCapa/appcast.xml)
 
-The first public release is being prepared. There are no downloads yet.
-The app requires macOS 14 or later.
+The current release is 1.0.1, signed with a Developer ID and notarized by
+Apple. The app requires macOS 14 or later.
 
 ## This repository
 
@@ -33,8 +33,10 @@ To preview locally, run `python3 -m http.server 8000` in this directory and open
 5. Commit the generated `appcast.xml` here and push to `main`.
 6. Verify the deployed feed and test upgrading from an older configured app.
 
-Increment `CFBundleVersion` for every update. Keep the private EdDSA signing key
-in the release machine's Keychain; never put it in this repository. The feed
-intentionally has no release items until a signed archive is available.
+Increment `CFBundleVersion` for every update: installs are offered an update on
+that number, not on the marketing version, so a release that reuses it is
+invisible to every copy already out there. Keep the private EdDSA signing key in
+the release machine's Keychain; never put it in this repository. Every published
+item carries a signature, and an unsigned one is refused by every install.
 
 Copyright © 2026 noinnion. All rights reserved.
