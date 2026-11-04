@@ -6,7 +6,7 @@ The public home of DiskCapa, a native macOS app for finding reclaimable disk spa
 - [Downloads and release notes](https://github.com/noinnion/DiskCapa/releases)
 - [Sparkle update feed](https://noinnion.com/DiskCapa/appcast.xml)
 
-The current release is 1.0.1, signed with a Developer ID and notarized by
+The current release is 1.0.2, signed with a Developer ID and notarized by
 Apple. The app requires macOS 14 or later.
 
 ## This repository
