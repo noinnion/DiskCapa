@@ -6,6 +6,29 @@
         <description>Signed updates for DiskCapa on macOS.</description>
         <language>en</language>
         <item>
+            <title>1.0.3</title>
+            <pubDate>Thu, 05 Nov 2026 11:37:35 +0100</pubDate>
+            <link>https://noinnion.com/DiskCapa/</link>
+            <sparkle:version>4</sparkle:version>
+            <sparkle:shortVersionString>1.0.3</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[<ul>
+<li><b>Says what has grown.</b> After a scan, the list reports how much has
+built up since the last one and which categories account for it. The menu bar
+carries the same line.</li>
+<li><b>Narrow the list.</b> Type to filter by name or path. If the filter hides
+rows you had ticked, it says so — ticks are never removed by filtering, and
+nothing hidden is deleted without being counted.</li>
+<li><b>Look before you delete.</b> Preview any row: what a folder holds
+directly, or a Quick Look of a file. Folders that cannot be read say so instead
+of appearing empty.</li>
+<li><b>Fixed.</b> Cancelling an AI review left its process running until a
+watchdog killed it three minutes later.</li>
+</ul>
+]]></description>
+            <enclosure url="https://github.com/noinnion/DiskCapa/releases/download/v1.0.3/DiskCapa.dmg" length="4737137" type="application/octet-stream" sparkle:edSignature="6mBTpObIAxtMWEnrYjGAFKQjjwkMLxmkSDfdo5v99dfnt/r7CkJ68B3FBt+Np+5s6kmZuCTQEGCNaIpUCTHbDw=="/>
+        </item>
+        <item>
             <title>1.0.2</title>
             <pubDate>Wed, 04 Nov 2026 12:57:43 +0100</pubDate>
             <link>https://noinnion.com/DiskCapa/</link>
@@ -22,15 +45,6 @@
             <sparkle:shortVersionString>1.0.1</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
             <enclosure url="https://github.com/noinnion/DiskCapa/releases/download/v1.0.1/DiskCapa.dmg" length="4398966" type="application/octet-stream" sparkle:edSignature="ZLDGBGugpQO1zS+pJH4gxqgUhqdWhelTlTjzFDUdIovoB7w97VzBqlzJjmjnaPgdoQ0iiklXzgQWnckRmUGcBA=="/>
-        </item>
-        <item>
-            <title>1.0.0</title>
-            <pubDate>Fri, 23 Oct 2026 00:30:03 +0200</pubDate>
-            <link>https://noinnion.com/DiskCapa/</link>
-            <sparkle:version>1</sparkle:version>
-            <sparkle:shortVersionString>1.0.0</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
-            <enclosure url="https://github.com/noinnion/DiskCapa/releases/download/v1.0.0/DiskCapa.dmg" length="4318264" type="application/octet-stream" sparkle:edSignature="REedBts9frUCyjtDrw+gknFg2lGnBJhNj5jGDzJ6EdA6eEwn7zUu2h8mJb7y7Zj1WuMy2TsmolMkYbyxhNrEAg=="/>
         </item>
     </channel>
 </rss>
